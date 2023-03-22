@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Services = () => {
-    return <div>Services</div>;
+    <section className={'pt-16 pb-8 lg:pt-24'}>
+        <div>Experience</div>
+    </section>;
 };
 
 export default Services;
