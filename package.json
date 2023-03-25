@@ -2,7 +2,7 @@
     "name": "my-vite-app",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://ayprojex.github.io/",
+    "homepage": "https://ayuubb.github.io/ayprojex.github.io",
     "type": "module",
     "scripts": {
         "dev": "vite",
