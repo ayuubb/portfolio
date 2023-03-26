@@ -40,3 +40,24 @@ export const experiences = [
         company: 'PT. Inspirasi Mandiri Nusantara',
     },
 ];
+
+export const works = [
+    {
+        id: 1,
+        name: 'Merchant',
+        desc: 'Lorem ipsum dolor sit amet.',
+        img: 'https://raw.githubusercontent.com/ayuubb/portfolio/main/src/assets/images/merchant.png',
+    },
+    {
+        id: 2,
+        name: 'Dizaglow',
+        desc: 'Lorem ipsum dolor sit amet.',
+        img: 'https://raw.githubusercontent.com/ayuubb/portfolio/main/src/assets/images/dizaglow.png',
+    },
+    {
+        id: 3,
+        name: 'Dizanaga',
+        desc: 'Lorem ipsum dolor sit amet.',
+        img: 'https://raw.githubusercontent.com/ayuubb/portfolio/main/src/assets/images/dizanaga.png',
+    },
+];
