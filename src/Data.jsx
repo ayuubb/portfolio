@@ -47,17 +47,20 @@ export const works = [
         name: 'Merchant',
         desc: 'Lorem ipsum dolor sit amet.',
         img: 'https://raw.githubusercontent.com/ayuubb/portfolio/main/src/assets/images/merchant.png',
+        href: 'https://merchant.id/',
     },
     {
         id: 2,
         name: 'Dizaglow',
         desc: 'Lorem ipsum dolor sit amet.',
         img: 'https://raw.githubusercontent.com/ayuubb/portfolio/main/src/assets/images/dizaglow.png',
+        href: 'https://dizaglow.com/',
     },
     {
         id: 3,
         name: 'Dizanaga',
         desc: 'Lorem ipsum dolor sit amet.',
         img: 'https://raw.githubusercontent.com/ayuubb/portfolio/main/src/assets/images/dizanaga.png',
+        href: 'https://dizanaga.com/',
     },
 ];
