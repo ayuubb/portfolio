@@ -20,9 +20,9 @@ const Portfolio = () => {
                                             <div className='font-bold'>{work.name}</div>
 
                                             <div className='opacity-60 text-sm'>
-                                                <a href='#' className='flex items-center'>
+                                                <span className='flex items-center'>
                                                     Visit <IconArrowNarrowRight className='gap-x-2' />
-                                                </a>
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
