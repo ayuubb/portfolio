@@ -19,7 +19,6 @@ export default function app() {
                 <Experience />
                 <Services />
                 <Portfolio />
-                <Testimonial />
                 <Contact />
                 <Footer />
                 <Nav />
