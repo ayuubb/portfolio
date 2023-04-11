@@ -12,7 +12,7 @@ const Hero = () => {
                 >
                     Ayprojex
                 </h1>
-                <h3 className={'text-xl mb-5'}>Frontend Developer</h3>
+                <h3 className={'text-xl mb-5 '}>Frontend Developer</h3>
                 <div className={'w-40 mx-auto mb-24'}>
                     <img className={'rounded-full'} src={logo} />
                 </div>

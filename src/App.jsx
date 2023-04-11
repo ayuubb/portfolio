@@ -12,8 +12,8 @@ import Hero from './sections/Hero.jsx';
 export default function app() {
     return (
         <div className={'bg-gray-900 min-h-screen font-display text-white'}>
+            <Header />
             <main className={'container mx-auto relative'}>
-                <Header />
                 <Hero />
                 <About />
                 <Experience />

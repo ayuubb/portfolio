@@ -4,7 +4,7 @@ import { IconHome2, IconUserCode, IconBook2, IconBriefcase, IconMessageDots } fr
 const Nav = () => {
     return (
         <div className={'mx-auto fixed bottom-4 left-0 right-0 flex justify-center items-center'}>
-            <ul className={'flex bg-blue-900/40 py-4 px-9 rounded-full gap-4 md:gap-6 backdrop-blur-xl'}>
+            <ul className={'flex bg-blue-900/20 py-4 px-9 rounded-full gap-4 md:gap-6 border-x border-y backdrop-blur-xl border-slate-300/10'}>
                 <li>
                     <a href='#'>
                         <IconHome2 />
