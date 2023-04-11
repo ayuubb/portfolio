@@ -8,12 +8,11 @@ const Contact = () => {
                 <span className={'text-sm mb-2'}>Get in touch</span>
                 <h2 className={'text-xl text-gray-400'}>Contact Me</h2>
             </div>
-            <div className='grid grid-cols-2'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
                 <div className=''>
                     <h3 className='mb-6 text-center'>Talk to me</h3>
-                    <div className='grid grid-cols-1 gap-4'>
-                        {' '}
-                        <div className={'p-4 bg-slate-800 text-center rounded-lg'}>
+                    <div className='grid grid-cols-1 gap-4 '>
+                        <div className={'p-4 bg-slate-800 text-center rounded-lg w-5/6 mx-auto'}>
                             <IconMailForward className={'mx-auto mb-2'} />
                             <h4>Email</h4>
                             <p className='mb-3'>ayubbkj2@gmail.com</p>
@@ -21,7 +20,7 @@ const Contact = () => {
                                 Write me <IconArrowNarrowRight className='mx-2' />
                             </a>
                         </div>
-                        <div className={'p-4 bg-slate-800 text-center rounded-lg'}>
+                        <div className={'p-4 bg-slate-800 text-center rounded-lg w-5/6 mx-auto'}>
                             <IconBrandWhatsapp className={'mx-auto mb-2'} />
                             <h4>Whatsapp</h4>
                             <p className='mb-3'>+62-8121-6444-924</p>

@@ -11,7 +11,7 @@ const About = () => {
                 <h2 className={'text-xl text-gray-400'}>About Me</h2>
             </div>
             <div className={'grid lg:grid-cols-2 grid-cols-1 justify-center gap-4'}>
-                <div className={'w-60 mx-auto'}>
+                <div className={'w-80 mx-auto'}>
                     <img className={'rounded-md'} alt='img-hero' src={hero} />
                 </div>
                 <div className={'flex-col justify-center lg:justify-start'}>
