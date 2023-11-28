@@ -7,6 +7,10 @@ import {
     IconBrandNpm,
     IconBrandGit,
     IconBrandSass,
+    IconBrandYoutube,
+    IconBrandInstagram,
+    IconBrandLinkedin,
+    IconBrandTiktok,
 } from '@tabler/icons-react';
 
 export const skillIcons = [
@@ -14,10 +18,19 @@ export const skillIcons = [
     <IconBrandBootstrap size={'64'} stroke={1.5} />,
     <IconBrandSvelte size={'64'} stroke={1.5} />,
     <IconBrandReact size={'64'} stroke={1.5} />,
+    <IconBrandSvelte size={'64'} stroke={1.5} />,
+    <IconBrandReact size={'64'} stroke={1.5} />,
     <IconBrandNpm size={'64'} stroke={1.5} />,
     <IconBrandGit size={'64'} stroke={1.5} />,
     <IconBrandJavascript size={'64'} stroke={1.5} />,
     <IconBrandSass size={'64'} stroke={1.5} />,
+];
+
+export const footerIcons = [
+    <IconBrandYoutube size={'32'} stroke={1.5} />,
+    <IconBrandInstagram size={'32'} stroke={1.5} />,
+    <IconBrandLinkedin size={'32'} stroke={1.5} />,
+    <IconBrandTiktok size={'32'} stroke={1.5} />,
 ];
 
 export const experiences = [

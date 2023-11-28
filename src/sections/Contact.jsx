@@ -1,5 +1,6 @@
 import { IconArrowNarrowRight, IconBrandWhatsapp, IconMailForward } from '@tabler/icons-react';
 import React from 'react';
+import Button from '../components/Button.jsx';
 
 const Contact = () => {
     return (
@@ -36,6 +37,12 @@ const Contact = () => {
                 </div>
                 <div className=''>
                     <h3 className='mb-6 text-center'>Write me your project</h3>
+                    <form action='' className='grid grid-cols-1 gap-4 text-gray-400'>
+                        <input type='text' placeholder='Your Full Name' className='p-4 bg-slate-800 rounded-lg' />
+                        <input type='email' placeholder='Your Email' className='p-4 bg-slate-800 rounded-lg' />
+                        <textarea className='p-3 resize-none block w-full bg-slate-800 rounded-lg' rows='6' placeholder='Your Message'></textarea>
+                        <Button className={'lg:ml-0 mx-auto'} text={'Contact Me'} />
+                    </form>
                 </div>
             </div>
         </section>

@@ -21,7 +21,7 @@ export default function app() {
                 <Portfolio />
                 <Contact />
                 <Footer />
-                <Nav />
+                {/* <Nav /> */}
             </main>
         </div>
     );

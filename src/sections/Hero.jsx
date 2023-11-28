@@ -10,7 +10,7 @@ const Hero = () => {
                 <h1
                     className={'text-5xl font-black mt-4 mb-4 leading-tight from-sky-400  to-blue-600 bg-gradient-to-r bg-clip-text text-transparent'}
                 >
-                    Ayprojex
+                    Ayprojex Dev
                 </h1>
                 <h3 className={'text-xl mb-5 '}>Frontend Developer</h3>
                 <div className={'w-40 mx-auto mb-24'}>
