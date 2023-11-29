@@ -4,6 +4,7 @@ import { experiences, skillIcons } from '../Data.jsx';
 
 const Experience = () => {
     const [active, setActive] = useState(1);
+
     return (
         <section className={'pt-16 pb-8 lg:pt-24'}>
             <div className={'text-center mb-8 lg:mb-14'}>

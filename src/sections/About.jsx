@@ -5,7 +5,7 @@ import Button from '../components/Button.jsx';
 
 const About = () => {
     return (
-        <section className={'pb-8'}>
+        <section id='#about' className={'pb-8 h-100vh'}>
             <div className={'text-center mb-8 lg:mb-14'}>
                 <span className={'text-sm mb-2'}>My Intro</span>
                 <h2 className={'text-xl text-gray-400'}>About Me</h2>

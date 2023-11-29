@@ -17,13 +17,13 @@ export default function app() {
             <main className={'container mx-auto relative'}>
                 <Hero />
                 <About />
-                <Maintenance />
+                {/* <Maintenance /> */}
                 <Experience />
                 <Services />
                 <Portfolio />
                 <Contact />
                 <Footer />
-                {/* <Nav /> */}
+                <Nav />
             </main>
         </div>
     );
