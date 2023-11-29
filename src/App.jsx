@@ -13,10 +13,10 @@ import Maintenance from './sections/Maintenance.jsx';
 
 export default function app() {
     useEffect(() => {
-        document.body.classList.add('scroll-smooth', 'bg-gray-900');
+        document.body.classList.add('scroll-smooth', 'bg-gray-900', 'polka');
     }, []);
     return (
-        <div className={'bg-gray-900 min-h-screen font-display text-white'}>
+        <div className={'bg-gray-900 polka min-h-screen font-display text-white'}>
             <Header />
             <main className={'container mx-auto relative'}>
                 <Hero />
