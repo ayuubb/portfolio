@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import About from './sections/About.jsx';
 import Header from './sections/Header.jsx';
 import Experience from './sections/Experience.jsx';
@@ -11,6 +12,9 @@ import Hero from './sections/Hero.jsx';
 import Maintenance from './sections/Maintenance.jsx';
 
 export default function app() {
+    useEffect(() => {
+        document.body.classList.add('scroll-smooth', 'bg-gray-900');
+    }, []);
     return (
         <div className={'bg-gray-900 min-h-screen font-display text-white'}>
             <Header />

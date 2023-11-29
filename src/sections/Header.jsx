@@ -7,7 +7,7 @@ const Header = () => {
         <nav className={'mb-10 md:mb-16 lg:mb-16 2xl:mb-28 border-b border-slate-300/10 sticky top-0 z-40 w-full backdrop-blur'}>
             <div className='container mx-auto py-4 flex justify-between items-center'>
                 <span className={'lg:text-2xl text-xl leading-none'}>Ayprojex</span>
-                <ul className='flex items-center gap-8 cursor-pointer'>
+                <ul className='md:flex hidden items-center gap-8 cursor-pointer'>
                     <li>
                         <a
                             className={
@@ -35,6 +35,7 @@ const Header = () => {
                         </a>
                     </li>
                 </ul>
+
                 <ul className={'flex items-center'}>
                     <li>
                         <a className={'px-4 py-2 flex gap-1 items-center'} href='#'>

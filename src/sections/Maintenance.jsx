@@ -4,7 +4,7 @@ const Maintenance = () => {
             <div class='fixed inset-0 bg-gray-800 bg-opacity-30 backdrop-blur-sm transition-opacity'></div>
 
             <div class='fixed inset-0 z-10 w-screen overflow-y-auto'>
-                <div class='flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0'>
+                <div class='flex min-h-full items-center justify-center p-4 text-center sm:items-center sm:p-0'>
                     <div class='relative transform overflow-hidden rounded-lg text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg'>
                         <section className='dark:bg-gray-900 bg-opacity-40 backdrop-blur-sm'>
                             <div className='py-8 px-4 mx-auto max-w-screen-md text-center lg:py-20 lg:px-14'>

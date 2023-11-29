@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../components/Card.jsx';
-import hero from '../assets/images/ayub.jpg';
+import hero from '../assets/images/ayub.png';
 import Button from '../components/Button.jsx';
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
             </div>
             <div className={'grid lg:grid-cols-2 grid-cols-1 justify-center gap-4'}>
                 <div className={'w-80 mx-auto'}>
-                    <img className={'rounded-md'} alt='img-hero' src={hero} />
+                    <img alt='img-hero' src={hero} />
                 </div>
                 <div className={'flex-col justify-center lg:justify-start'}>
                     <div className='flex justify-center gap-x-3'>
