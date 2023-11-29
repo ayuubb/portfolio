@@ -8,6 +8,7 @@ import Contact from './sections/Contact.jsx';
 import Footer from './sections/Footer.jsx';
 import Nav from './sections/Nav.jsx';
 import Hero from './sections/Hero.jsx';
+import Maintenance from './sections/Maintenance.jsx';
 
 export default function app() {
     return (
@@ -16,6 +17,7 @@ export default function app() {
             <main className={'container mx-auto relative'}>
                 <Hero />
                 <About />
+                <Maintenance />
                 <Experience />
                 <Services />
                 <Portfolio />
