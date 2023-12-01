@@ -16,10 +16,8 @@ import {
 export const skillIcons = [
     <IconBrandHtml5 size={'64'} stroke={1.5} />,
     <IconBrandBootstrap size={'64'} stroke={1.5} />,
-    <IconBrandSvelte size={'64'} stroke={1.5} />,
     <IconBrandReact size={'64'} stroke={1.5} />,
     <IconBrandSvelte size={'64'} stroke={1.5} />,
-    <IconBrandReact size={'64'} stroke={1.5} />,
     <IconBrandNpm size={'64'} stroke={1.5} />,
     <IconBrandGit size={'64'} stroke={1.5} />,
     <IconBrandJavascript size={'64'} stroke={1.5} />,
